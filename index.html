@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOGI</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="icon" href="./img/파비콘/favicon-16x16.png" />
+  </head>
+  <body>
+    <header>
+      <div class="head_wrap">
+        <!-- 로고 -->
+        <h1>
+          <a href="/"><img src="./img/main/DOGI.svg" alt="logo" /></a>
+        </h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="#">살펴보기</a>
+              <ul class="submenu">
+                <div class="menu_warp">
+                  <li><a href="#">이용안내</a></li>
+                  <li><a href="#">호텔링</a></li>
+                  <li><a href="#">방문시팅</a></li>
+                  <li><a href="#">유치원</a></li>
+                </div>
+              </ul>
+            </li>
+            <li>
+              <a href="#">리뷰&amp;평점</a>
+              <ul class="submenu">
+                <div class="menu_warp">
+                  <li><a href="#">BEST 리뷰</a></li>
+                  <li><a href="#">BEST 업체</a></li>
+                </div>
+              </ul>
+            </li>
+            <li>
+              <a href="#">커뮤니티</a>
+              <ul class="submenu">
+                <div class="menu_warp">
+                  <li><a href="#">공지사항</a></li>
+                  <li><a href="#">EVENT</a></li>
+                  <li><a href="#">PHOTO</a></li>
+                  <li><a href="#">자유게시판</a></li>
+                </div>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="header_icons">
+          <div class="login"><a href="#"></a></div>
+          <div class="menu"><a href="#"></a></div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- 메인비주얼 -->
+      <section class="main_visual">
+        <div class="content_box">
+          <div class="maintext_wrap">
+            <h2>나의 반려견에게 선물 하는<br />특별한 하루</h2>
+            <p>원하는 위탁 서비스를 검색하고 예약해보세요.</p>
+          </div>
+        </div>
+      </section>
+      <!-- 검색 섹션 -->
+      <section class="search_sec">
+        <div class="content_box">
+          <div class="search_con">
+            <h3>맞춤 검색</h3>
+            <form action="#" method="post" id="search_form" class="search">
+              <div class="search_bar">
+                <div class="search_area">
+                  <label for="search_area">
+                    <input
+                      type="text"
+                      id="search_area"
+                      name="search_area"
+                      placeholder="지역"
+                    />
+                  </label>
+                </div>
+                <div class="search_date">
+                  <label for="search_date">
+                    <input
+                      type="date"
+                      id="search_date"
+                      name="search_date"
+                      placeholder="날짜"
+                    />
+                  </label>
+                </div>
+                <div class="search_kg">
+                  <label for="search_kg">
+                    <input
+                      type="text"
+                      id="search_kg"
+                      name="search_kg"
+                      placeholder="몸무게 (kg)"
+                    />
+                  </label>
+                </div>
+                <div class="search_btn">
+                  <label for="search_btn">
+                    <input
+                      type="button"
+                      id="search_btn"
+                      name="search_btn"
+                      class="search_btn"
+                      value="검색"
+                    />
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- 버튼들 -->
+          <div class="service_btn">
+            <h3>서비스 선택</h3>
+            <div class="btn_wrap">
+              <div>
+                <label for="hotel">
+                  <input type="radio" id="hotel" name="service_btn" />
+                  <span>호텔링</span>
+                </label>
+              </div>
+              <div>
+                <label for="sitting">
+                  <input type="radio" id="sitting" name="service_btn" />
+                  <span>방문시팅</span>
+                </label>
+              </div>
+              <div>
+                <label for="school">
+                  <input type="radio" id="school" name="service_btn" />
+                  <span>유치원</span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 아이콘버튼 섹션 -->
+      <section class="iconbtn_sec">
+        <div class="content_box">
+          <div class="text_box">
+            <h3><span class="blue">확인</span>해 주세요!</h3>
+            <p>필요한 정보만 쏙쏙 가져가세요.</p>
+          </div>
+          <div class="iconbtn_wrap">
+            <div class="iconbtn_box">
+              <a href="#">
+                <div>
+                  <div class="iconbtn_info"></div>
+                </div>
+                <h5>이용안내</h5>
+              </a>
+            </div>
+            <div class="iconbtn_box">
+              <a href="#">
+                <div><div class="iconbtn_event"></div></div>
+                <h5>이벤트 &amp; 프로모션</h5>
+              </a>
+            </div>
+            <div class="iconbtn_box">
+              <a href="#">
+                <div><div class="iconbtn_commu"></div></div>
+                <h5>커뮤니티</h5>
+              </a>
+            </div>
+            <div class="iconbtn_box">
+              <a href="#">
+                <div><div class="iconbtn_book"></div></div>
+                <h5>예약확인</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 리뷰섹션 -->
+      <section class="review_sec">
+        <div class="content_box">
+          <div class="text_wrap">
+            <h2>
+              <span class="blue">리뷰</span>와 <span class="blue">평점</span>을
+              한 눈에
+            </h2>
+            <p>원하는 서비스와 업체의 리뷰를 확인하고 직접 남겨보세요.</p>
+            <button class="more_btn">더 보러가기</button>
+          </div>
+          <div class="reviewpic_con">
+            <div class="reviewpic_wrap1">
+              <div class="slide">
+                <img
+                  src="./img/main/reviewimg1.png"
+                  alt="review1"
+                  class="review1"
+                />
+                <img
+                  src="./img/main/reviewimg2.png"
+                  alt="review2"
+                  class="review2"
+                />
+                <img
+                  src="./img/main/reviewimg3.png"
+                  alt="review3"
+                  class="review3"
+                />
+                <img
+                  src="./img/main/reviewimg4.png"
+                  alt="review4"
+                  class="review4"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="./img/main/reviewimg1.png"
+                  alt="review1"
+                  class="review1"
+                />
+                <img
+                  src="./img/main/reviewimg2.png"
+                  alt="review2"
+                  class="review2"
+                />
+                <img
+                  src="./img/main/reviewimg3.png"
+                  alt="review3"
+                  class="review3"
+                />
+                <img
+                  src="./img/main/reviewimg4.png"
+                  alt="review4"
+                  class="review4"
+                />
+              </div>
+            </div>
+            <div class="reviewpic_wrap2">
+              <div class="slide">
+                <img
+                  src="./img/main/reviewimg1.png"
+                  alt="review1"
+                  class="review1"
+                />
+                <img
+                  src="./img/main/reviewimg2.png"
+                  alt="review2"
+                  class="review2"
+                />
+                <img
+                  src="./img/main/reviewimg3.png"
+                  alt="review3"
+                  class="review3"
+                />
+                <img
+                  src="./img/main/reviewimg4.png"
+                  alt="review4"
+                  class="review4"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="./img/main/reviewimg1.png"
+                  alt="review1"
+                  class="review1"
+                />
+                <img
+                  src="./img/main/reviewimg2.png"
+                  alt="review2"
+                  class="review2"
+                />
+                <img
+                  src="./img/main/reviewimg3.png"
+                  alt="review3"
+                  class="review3"
+                />
+                <img
+                  src="./img/main/reviewimg4.png"
+                  alt="review4"
+                  class="review4"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 베스트섹션 -->
+      <section class="best_sec">
+        <div class="content_box">
+          <div class="best_text">
+            <h2>이 달의 BEST</h2>
+            <p>7월, 고객만족도가 가장 높았던 업체들을 확인해보세요.</p>
+          </div>
+          <div class="select_btn">
+            <div>
+              <label for="hotel2">
+                <input type="radio" id="hotel2" name="service_btn" />
+                <span>호텔링</span>
+              </label>
+            </div>
+            <div>
+              <label for="sitting2">
+                <input type="radio" id="sitting2" name="service_btn" />
+                <span>방문시팅</span>
+              </label>
+            </div>
+            <div>
+              <label for="school2">
+                <input type="radio" id="school2" name="service_btn" />
+                <span>유치원</span>
+              </label>
+            </div>
+          </div>
+          <div class="bestpic_wrap">
+            <div class="bestpic">
+              <img src="./img/main/best1.png" alt="best1" />
+              <p>댕댕하우스&#47;호텔링</p>
+              <p>4.9&#40;98&#41;</p>
+              <div class="hashtag">
+                <a href="#">깔끔해요</a>
+                <a href="#">친절해요</a>
+                <a href="#">픽업가능</a>
+              </div>
+            </div>
+            <div>
+              <img src="./img/main/best2.png" alt="best2" />
+              <p>댕댕하우스&#47;호텔링</p>
+              <p>4.9&#40;98&#41;</p>
+              <div class="hashtag">
+                <a href="#">깔끔해요</a>
+                <a href="#">친절해요</a>
+                <a href="#">픽업가능</a>
+              </div>
+            </div>
+            <div>
+              <img src="./img/main/best3.png" alt="best3" />
+              <p>댕댕하우스 &#47; 호텔링</p>
+              <p>4.9<span class="gray">&#40;98&#41;</span></p>
+              <div class="hashtag">
+                <a href="#">깔끔해요</a>
+                <a href="#">친절해요</a>
+                <a href="#">픽업가능</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
