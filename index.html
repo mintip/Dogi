@@ -6,7 +6,7 @@
     <title>DOGI</title>
     <!-- css -->
     <link rel="stylesheet" href="./css/layout.css" />
-    <link rel="icon" href="./img/파비콘/favicon-16x16.png" />
+    <link rel="icon" href="./img/main/파비콘/favicon-16x16.png" />
   </head>
   <body>
     <header>
@@ -314,41 +314,126 @@
               </label>
             </div>
           </div>
-          <div class="bestpic_wrap">
-            <div class="bestpic">
-              <img src="./img/main/best1.png" alt="best1" />
-              <p>댕댕하우스&#47;호텔링</p>
-              <p>4.9&#40;98&#41;</p>
-              <div class="hashtag">
-                <a href="#">깔끔해요</a>
-                <a href="#">친절해요</a>
-                <a href="#">픽업가능</a>
+          <div class="bestSlide_wrap">
+            <!-- 슬라이드 아이콘 -->
+            <div class="right_slide">
+              <div></div>
+            </div>
+            <div class="bestpic_wrap">
+              <div class="bestpic">
+                <div class="bestpic_box">
+                  <img src="./img/main/best1.png" alt="best1" />
+                </div>
+                <div class="best_p">
+                  <p>댕댕하우스&#47;호텔링</p>
+                  <p class="star">4.9 <span class="gray">(98)</span></p>
+                </div>
+                <div class="hashtag">
+                  <a href="#"># 깔끔해요</a>
+                  <a href="#"># 친절해요</a>
+                  <a href="#"># 픽업가능</a>
+                </div>
+              </div>
+              <div class="bestpic">
+                <div class="bestpic_box">
+                  <img src="./img/main/best2.png" alt="best2" />
+                </div>
+                <div class="best_p">
+                  <p>댕댕하우스&#47;호텔링</p>
+                  <p class="star">4.9 <span class="gray">(98)</span></p>
+                </div>
+                <div class="hashtag">
+                  <a href="#"># 깔끔해요</a>
+                  <a href="#"># 친절해요</a>
+                  <a href="#"># 픽업가능</a>
+                </div>
+              </div>
+              <div class="bestpic">
+                <div class="bestpic_box">
+                  <img src="./img/main/best3.png" alt="best3" />
+                </div>
+                <div class="best_p">
+                  <p>댕댕하우스&#47;호텔링</p>
+                  <p class="star">4.9 <span class="gray">(98)</span></p>
+                </div>
+                <div class="hashtag">
+                  <a href="#"># 깔끔해요</a>
+                  <a href="#"># 친절해요</a>
+                  <a href="#"># 픽업가능</a>
+                </div>
               </div>
             </div>
-            <div>
-              <img src="./img/main/best2.png" alt="best2" />
-              <p>댕댕하우스&#47;호텔링</p>
-              <p>4.9&#40;98&#41;</p>
-              <div class="hashtag">
-                <a href="#">깔끔해요</a>
-                <a href="#">친절해요</a>
-                <a href="#">픽업가능</a>
-              </div>
-            </div>
-            <div>
-              <img src="./img/main/best3.png" alt="best3" />
-              <p>댕댕하우스 &#47; 호텔링</p>
-              <p>4.9<span class="gray">&#40;98&#41;</span></p>
-              <div class="hashtag">
-                <a href="#">깔끔해요</a>
-                <a href="#">친절해요</a>
-                <a href="#">픽업가능</a>
-              </div>
+            <!-- 슬라이드 아이콘 -->
+            <div class="left_slide">
+              <div></div>
             </div>
           </div>
+          <!-- 슬라이드 도트 -->
+          <!-- 누르면 검은색으로 바뀌고 width 늘어나도록 해야함 -->
+          <div class="slide_dot">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <button class="more_btn">더 보러가기</button>
+        </div>
+      </section>
+      <!-- PHOTO 섹션 -->
+      <section class="photo_sec">
+        <div class="content_box">
+          <div class="photo_text">
+            <h2>PHOTO</h2>
+            <p>DOGI에서 사랑스러운 반려견을 자랑하세요!</p>
+          </div>
+          <div class="picSlide_wrap">
+            <div class="right_slide">
+              <div></div>
+            </div>
+            <div class="pic_wrap">
+              <div class="photo_pic">
+                <img src="./img/main/photo1.png" alt="강아지1" />
+              </div>
+              <div class="photo_pic">
+                <img src="./img/main/photo2.png" alt="강아지2" />
+              </div>
+              <div class="photo_pic">
+                <img src="./img/main/photo3.png" alt="강아지3" />
+              </div>
+              <div class="photo_pic">
+                <img src="./img/main/photo4.png" alt="강아지4" />
+              </div>
+              <div class="photo_pic">
+                <img src="./img/main/photo5.png" alt="강아지5" />
+              </div>
+            </div>
+            <div class="left_slide">
+              <div></div>
+            </div>
+          </div>
+          <div class="slide_dot">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <button class="more_btn">더 보러가기</button>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <!-- footer -->
+    <footer>
+      <div>
+        <a href="#">자주 묻는 질문 &#40;FAQ&#41;</a>
+        <a href="#">문의하기</a>
+        <a href="#">이용약관</a>
+        <a href="#">개인정보 처리방침 및 쿠키 정책</a>
+        <a href="#">사업자정보 공개</a>
+      </div>
+      <div>
+        <h2>
+          <a href="/"><img src="./img/main/DOGI.svg" alt="로고" /></a>
+        </h2>
+        <p>&copy;2024DOGI.</p>
+      </div>
+    </footer>
   </body>
 </html>
