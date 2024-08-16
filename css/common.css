@@ -1,0 +1,141 @@
+@charset "utf-8";
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
+/* 헤더 */
+header {
+  width: 100%;
+  height: 72px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  box-shadow: 1px 0px 8px #dddddd;
+}
+.head_wrap {
+  width: 1600px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 76px;
+}
+nav {
+  width: 1250px;
+  height: 100%;
+  text-align: left;
+}
+nav > ul {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  column-gap: 30px;
+  line-height: 72px;
+  position: relative;
+  text-align: center;
+}
+
+.header_icons {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  gap: 16px;
+}
+.header_icons > div {
+  width: 30px;
+  height: 30px;
+}
+.header_icons > div > a {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+  background-image: url(../img/sprites/dogi_sprites.png);
+  background-repeat: no-repeat;
+  margin-top: 3px;
+}
+.header_icons .login > a {
+  background-position: -10px -90px;
+}
+.header_icons .menu > a {
+  background-position: -10px -134px;
+}
+/* 2차메뉴 */
+.submenu {
+  width: 150px;
+  height: 0;
+  overflow: hidden;
+  line-height: 50px;
+  position: relative;
+  top: 16px;
+
+  transition: 0.3s;
+}
+.submenu .menu_warp {
+  width: 90%;
+  height: fit-content;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255);
+  box-shadow: 1px 0px 7px #8888883f;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+nav > ul > li:first-child:hover .submenu,
+nav > ul > li:last-child:hover .submenu {
+  height: 220px;
+}
+nav > ul > li .submenu::after {
+  content: "";
+  border-top: 0px solid transparent;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #ffffff;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+nav > ul > li:hover > a {
+  color: #4d85a1;
+}
+.header_icons > div:hover {
+  cursor: pointer;
+  border-radius: 100%;
+  background-color: #fbf8f5;
+}
+.menu_warp > li:hover {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fbf8f5;
+}
+.menu_warp > li:hover a {
+  color: #4d85a1;
+}
+/* footer */
+footer {
+  width: 100%;
+  height: 200px;
+  border-top: 1px solid #000000;
+}
+footer > div {
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+footer > div > a {
+  margin: 0 10px;
+  color: #aaaaaa;
+}
+footer div:last-child {
+  margin-top: 54px;
+}
+footer h2 a {
+  opacity: 40%;
+}
+footer p {
+  margin-top: 50px;
+  color: #aaaaaa;
+}

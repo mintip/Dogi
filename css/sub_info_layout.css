@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  color: #3f3f3f;
+  font-weight: 500;
+  background-color: #ffffff;
+}
+main {
+  width: 100%;
+  height: auto;
+  margin-top: 72px;
+}
+/* 이용안내 메인 비주얼 */
+.sub_visual {
+  width: 100%;
+  height: 380px;
+  background-color: #fcfcfc;
+}
+.content_box {
+  width: 1600px;
+  height: 100%;
+  margin: 0 auto;
+}
+.sub_visual > .content_box {
+  box-sizing: border-box;
+  padding: 0 32px;
+}
+.sub_visual_menu {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.sub_visual_menu h2 {
+  font-size: 52px;
+  font-weight: 800;
+  margin-bottom: 114px;
+  margin-top: 154px;
+}
+.sub_visual_menu ul {
+  display: flex;
+  gap: 60px;
+  font-size: 18px;
+}
+.sub_visual_menu > ul > li:first-child a {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  border-bottom: 2px solid #000000;
+}
+.sub_visual_img {
+  width: fit-content;
+  height: fit-content;
+  float: right;
+}
+.sec1 {
+  width: 100%;
+  height: 794px;
+}
+.sec1 > .content_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 262px;
+}
+.sec1 > .content_box > img {
+  width: 550px;
+  height: 550px;
+}
+.sec1 > .content_box > p {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 80px;
+}
+.sec1 > .content_box > p > span {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+}
+/* 두번째 섹션 */
+.sec2 {
+  width: 100%;
+  height: 700px;
+}
+.content_beigebox {
+  width: 1600px;
+  height: 650px;
+  background-color: #fbf8f5;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 220px;
+  box-sizing: border-box;
+  padding-left: 74px;
+}
+.info_textwrap {
+  width: fit-content;
+  height: fit-content;
+}
+.info_textwrap > h3 {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 36px;
+}
+.info_textwrap > p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+/* 세번째 섹션 */
+.sec3 {
+  width: 100%;
+  height: 700px;
+}
+.sec3 > .content_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 244px;
+}
+/* 네번째섹션 */
+.sec4 {
+  width: 100%;
+  height: 700px;
+}
+/* 다섯번째 섹션 */
+.sec5 {
+  width: 100%;
+  height: 540px;
+  box-sizing: border-box;
+  padding: 105px 0 191px 0;
+}
+.sec5 h4 {
+  width: fit-content;
+  height: fit-content;
+  font-size: 42px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+.sec5_btnwrap {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0 auto;
+}
+.sec5_btnwrap .left_btn,
+.sec5_btnwrap .right_btn {
+  width: 402px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #4d85a1;
+  border-radius: 5px;
+  gap: 20px;
+  transition: 0.3s;
+}
+.sec5_btnwrap a {
+  font-size: 32px;
+  color: #4d85a1;
+  transition: 0.3s;
+}
+.sec5_btnwrap .left_btn > div {
+  width: 44px;
+  height: 44px;
+  background: url(../img/sprites/sub_sprites1.png) no-repeat;
+  background-position: -10px -296px;
+  transition: 0.3s;
+}
+.sec5_btnwrap .right_btn > div {
+  width: 60px;
+  height: 60px;
+  background: url(../img/sprites/sub_sprites1.png) no-repeat;
+  background-position: -10px -424px;
+  transition: 0.3s;
+}
+.sec5_btnwrap .left_btn:hover,
+.sec5_btnwrap .right_btn:hover {
+  background-color: #4d85a1;
+}
+.sec5_btnwrap .left_btn:hover a,
+.sec5_btnwrap .right_btn:hover a {
+  color: #ffffff;
+}
+.sec5_btnwrap .left_btn:hover div {
+  background: url(../img/sprites/sub_sprites1.png) no-repeat;
+  background-position: -10px -360px;
+}
+.sec5_btnwrap .right_btn:hover div {
+  background: url(../img/sprites/sub_sprites1.png) no-repeat;
+  background-position: -10px -504px;
+}

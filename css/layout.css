@@ -92,9 +92,6 @@ nav > ul > li:first-child:hover .submenu,
 nav > ul > li:last-child:hover .submenu {
   height: 220px;
 }
-nav > ul > li:nth-child(2):hover .submenu {
-  height: 120px;
-}
 nav > ul > li .submenu::after {
   content: "";
   border-top: 0px solid transparent;
