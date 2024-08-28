@@ -1,0 +1,54 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  color: #3f3f3f;
+  font-weight: 500;
+  background-color: #ffffff;
+  margin: 50px;
+}
+.review_card {
+  width: 350px;
+  height: 480px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px #00000025;
+  margin: 70px 0;
+}
+.cardtxt_wrap {
+  width: 236px;
+  height: fit-content;
+  font-weight: 600;
+  box-sizing: border-box;
+  margin: 20px 30px;
+}
+.cardstar_p {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 30px;
+}
+.cardstar_p p:first-child {
+  margin-right: 27px;
+}
+cardstar_p .star::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/sprites/dogi_sprites.png) no-repeat;
+  background-position: -10px -10px;
+  position: relative;
+  left: -4px;
+  top: 2px;
+}
+.gray {
+  color: #a0a0a0;
+}
+.cardtxt_wrap p:first-of-type {
+  margin-bottom: 30px;
+}
+.cardtxt_wrap p a {
+  color: #56397b;
+}

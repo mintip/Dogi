@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./css/layout.css" />
     <!-- 파비콘 -->
     <link rel="icon" href="./img/main/파비콘/favicon-16x16.png" />
+    <link rel="stylesheet" href="./css/slick-theme.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
   </head>
   <body>
     <header>
@@ -147,7 +149,7 @@
           </div>
           <div class="iconbtn_wrap">
             <div class="iconbtn_box">
-              <a href="#">
+              <a href="./sub_info.html">
                 <div>
                   <div class="iconbtn_info"></div>
                 </div>
@@ -161,7 +163,7 @@
               </a>
             </div>
             <div class="iconbtn_box">
-              <a href="#">
+              <a href="./sub_notice.html">
                 <div><div class="iconbtn_commu"></div></div>
                 <h5>커뮤니티</h5>
               </a>
@@ -186,97 +188,278 @@
             <p>원하는 서비스와 업체의 리뷰를 확인하고 직접 남겨보세요.</p>
             <button class="more_btn">더 보러가기</button>
           </div>
+          <!-- 리뷰 슬라이드애니메이션 -->
           <div class="reviewpic_con">
             <div class="reviewpic_wrap1">
-              <div class="slide">
-                <img
-                  src="./img/main/reviewimg1.png"
-                  alt="review1"
-                  class="review1"
-                />
-                <img
-                  src="./img/main/reviewimg2.png"
-                  alt="review2"
-                  class="review2"
-                />
-                <img
-                  src="./img/main/reviewimg3.png"
-                  alt="review3"
-                  class="review3"
-                />
-                <img
-                  src="./img/main/reviewimg4.png"
-                  alt="review4"
-                  class="review4"
-                />
+              <div class="left_slide1">
+                <div class="review_card">
+                  <div>
+                    <img src="./img/main/review_dog1.png" alt="리뷰이미지1" />
+                  </div>
+                  <div class="cardtxt_wrap">
+                    <div class="cardstar_p">
+                      <p>댕댕하우스 &#47; 호텔링</p>
+                      <p class="star">4.8 <span class="gray">(98)</span></p>
+                    </div>
+                    <p>작성자 kk&#42;&#42;&#42;</p>
+                    <p>
+                      여러군데 맡겨봤는데 댕댕하우스가 가장 분위기가 맞았...
+                      <a href="#">더보기</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="review_card">
+                  <div>
+                    <img src="./img/main/review_dog2.png" alt="리뷰이미지2" />
+                  </div>
+                  <div class="cardtxt_wrap">
+                    <div class="cardstar_p">
+                      <p>어서오개 &#47; 유치원</p>
+                      <p class="star">4.9 <span class="gray">(39)</span></p>
+                    </div>
+                    <p>작성자 wi&#42;&#42;&#42;</p>
+                    <p>
+                      저희 애가 생긴게 무서워서 쉽게 유치원을 고를 수
+                      없었는데...
+                      <a href="#">더보기</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="review_card">
+                  <div>
+                    <img src="./img/main/review_dog3.png" alt="리뷰이미지3" />
+                  </div>
+                  <div class="cardtxt_wrap">
+                    <div class="cardstar_p">
+                      <p>몰리시터 &#47; 방문시팅</p>
+                      <p class="star">5.0 <span class="gray">(23)</span></p>
+                    </div>
+                    <p>작성자 si&#42;&#42;&#42;</p>
+                    <p>
+                      급한 출장으로 집을 비울일이 있어서 방문시팅 이용해봤...
+                      <a href="#">더보기</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="review_card">
+                  <div>
+                    <img src="./img/main/review_dog4.png" alt="리뷰이미지4" />
+                  </div>
+                  <div class="cardtxt_wrap">
+                    <div class="cardstar_p">
+                      <p>댕댕하우스 &#47; 호텔링</p>
+                      <p class="star">4.8 <span class="gray">(98)</span></p>
+                    </div>
+                    <p>작성자 mk&#42;&#42;&#42;</p>
+                    <p>
+                      아직 애기라 혼자 맡기기 불안했는데 댕댕하우스에서 정말...
+                      <a href="#">더보기</a>
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div class="slide">
-                <img
-                  src="./img/main/reviewimg1.png"
-                  alt="review1"
-                  class="review1"
-                />
-                <img
-                  src="./img/main/reviewimg2.png"
-                  alt="review2"
-                  class="review2"
-                />
-                <img
-                  src="./img/main/reviewimg3.png"
-                  alt="review3"
-                  class="review3"
-                />
-                <img
-                  src="./img/main/reviewimg4.png"
-                  alt="review4"
-                  class="review4"
-                />
+              <div class="left_slide2">
+                <div class="review_card">
+                  <div>
+                    <img src="./img/main/review_dog1.png" alt="리뷰이미지1" />
+                  </div>
+                  <div class="cardtxt_wrap">
+                    <div class="cardstar_p">
+                      <p>댕댕하우스 &#47; 호텔링</p>
+                      <p class="star">4.8 <span class="gray">(98)</span></p>
+                    </div>
+                    <p>작성자 kk&#42;&#42;&#42;</p>
+                    <p>
+                      여러군데 맡겨봤는데 댕댕하우스가 가장 분위기가 맞았...
+                      <a href="#">더보기</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="review_card">
+                  <div>
+                    <img src="./img/main/review_dog2.png" alt="리뷰이미지2" />
+                  </div>
+                  <div class="cardtxt_wrap">
+                    <div class="cardstar_p">
+                      <p>어서오개 &#47; 유치원</p>
+                      <p class="star">4.9 <span class="gray">(39)</span></p>
+                    </div>
+                    <p>작성자 wi&#42;&#42;&#42;</p>
+                    <p>
+                      저희 애가 생긴게 무서워서 쉽게 유치원을 고를 수
+                      없었는데...
+                      <a href="#">더보기</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="review_card">
+                  <div>
+                    <img src="./img/main/review_dog3.png" alt="리뷰이미지3" />
+                  </div>
+                  <div class="cardtxt_wrap">
+                    <div class="cardstar_p">
+                      <p>몰리시터 &#47; 방문시팅</p>
+                      <p class="star">5.0 <span class="gray">(23)</span></p>
+                    </div>
+                    <p>작성자 si&#42;&#42;&#42;</p>
+                    <p>
+                      급한 출장으로 집을 비울일이 있어서 방문시팅 이용해봤...
+                      <a href="#">더보기</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="review_card">
+                  <div>
+                    <img src="./img/main/review_dog4.png" alt="리뷰이미지4" />
+                  </div>
+                  <div class="cardtxt_wrap">
+                    <div class="cardstar_p">
+                      <p>댕댕하우스 &#47; 호텔링</p>
+                      <p class="star">4.8 <span class="gray">(98)</span></p>
+                    </div>
+                    <p>작성자 mk&#42;&#42;&#42;</p>
+                    <p>
+                      아직 애기라 혼자 맡기기 불안했는데 댕댕하우스에서 정말...
+                      <a href="#">더보기</a>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="reviewpic_wrap2">
-              <div class="slide">
-                <img
-                  src="./img/main/reviewimg1.png"
-                  alt="review1"
-                  class="review1"
-                />
-                <img
-                  src="./img/main/reviewimg2.png"
-                  alt="review2"
-                  class="review2"
-                />
-                <img
-                  src="./img/main/reviewimg3.png"
-                  alt="review3"
-                  class="review3"
-                />
-                <img
-                  src="./img/main/reviewimg4.png"
-                  alt="review4"
-                  class="review4"
-                />
+              <div class="right_slide1">
+                <div class="review_card">
+                  <div>
+                    <img src="./img/main/review_dog1.png" alt="리뷰이미지1" />
+                  </div>
+                  <div class="cardtxt_wrap">
+                    <div class="cardstar_p">
+                      <p>댕댕하우스 &#47; 호텔링</p>
+                      <p class="star">4.8 <span class="gray">(98)</span></p>
+                    </div>
+                    <p>작성자 kk&#42;&#42;&#42;</p>
+                    <p>
+                      여러군데 맡겨봤는데 댕댕하우스가 가장 분위기가 맞았...
+                      <a href="#">더보기</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="review_card">
+                  <div>
+                    <img src="./img/main/review_dog2.png" alt="리뷰이미지2" />
+                  </div>
+                  <div class="cardtxt_wrap">
+                    <div class="cardstar_p">
+                      <p>어서오개 &#47; 유치원</p>
+                      <p class="star">4.9 <span class="gray">(39)</span></p>
+                    </div>
+                    <p>작성자 wi&#42;&#42;&#42;</p>
+                    <p>
+                      저희 애가 생긴게 무서워서 쉽게 유치원을 고를 수
+                      없었는데...
+                      <a href="#">더보기</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="review_card">
+                  <div>
+                    <img src="./img/main/review_dog3.png" alt="리뷰이미지3" />
+                  </div>
+                  <div class="cardtxt_wrap">
+                    <div class="cardstar_p">
+                      <p>몰리시터 &#47; 방문시팅</p>
+                      <p class="star">5.0 <span class="gray">(23)</span></p>
+                    </div>
+                    <p>작성자 si&#42;&#42;&#42;</p>
+                    <p>
+                      급한 출장으로 집을 비울일이 있어서 방문시팅 이용해봤...
+                      <a href="#">더보기</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="review_card">
+                  <div>
+                    <img src="./img/main/review_dog4.png" alt="리뷰이미지4" />
+                  </div>
+                  <div class="cardtxt_wrap">
+                    <div class="cardstar_p">
+                      <p>댕댕하우스 &#47; 호텔링</p>
+                      <p class="star">4.8 <span class="gray">(98)</span></p>
+                    </div>
+                    <p>작성자 mk&#42;&#42;&#42;</p>
+                    <p>
+                      아직 애기라 혼자 맡기기 불안했는데 댕댕하우스에서 정말...
+                      <a href="#">더보기</a>
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div class="slide">
-                <img
-                  src="./img/main/reviewimg1.png"
-                  alt="review1"
-                  class="review1"
-                />
-                <img
-                  src="./img/main/reviewimg2.png"
-                  alt="review2"
-                  class="review2"
-                />
-                <img
-                  src="./img/main/reviewimg3.png"
-                  alt="review3"
-                  class="review3"
-                />
-                <img
-                  src="./img/main/reviewimg4.png"
-                  alt="review4"
-                  class="review4"
-                />
+              <div class="right_slide2">
+                <div class="review_card">
+                  <div>
+                    <img src="./img/main/review_dog1.png" alt="리뷰이미지1" />
+                  </div>
+                  <div class="cardtxt_wrap">
+                    <div class="cardstar_p">
+                      <p>댕댕하우스 &#47; 호텔링</p>
+                      <p class="star">4.8 <span class="gray">(98)</span></p>
+                    </div>
+                    <p>작성자 kk&#42;&#42;&#42;</p>
+                    <p>
+                      여러군데 맡겨봤는데 댕댕하우스가 가장 분위기가 맞았...
+                      <a href="#">더보기</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="review_card">
+                  <div>
+                    <img src="./img/main/review_dog2.png" alt="리뷰이미지2" />
+                  </div>
+                  <div class="cardtxt_wrap">
+                    <div class="cardstar_p">
+                      <p>어서오개 &#47; 유치원</p>
+                      <p class="star">4.9 <span class="gray">(39)</span></p>
+                    </div>
+                    <p>작성자 wi&#42;&#42;&#42;</p>
+                    <p>
+                      저희 애가 생긴게 무서워서 쉽게 유치원을 고를 수
+                      없었는데...
+                      <a href="#">더보기</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="review_card">
+                  <div>
+                    <img src="./img/main/review_dog3.png" alt="리뷰이미지3" />
+                  </div>
+                  <div class="cardtxt_wrap">
+                    <div class="cardstar_p">
+                      <p>몰리시터 &#47; 방문시팅</p>
+                      <p class="star">5.0 <span class="gray">(23)</span></p>
+                    </div>
+                    <p>작성자 si&#42;&#42;&#42;</p>
+                    <p>
+                      급한 출장으로 집을 비울일이 있어서 방문시팅 이용해봤...
+                      <a href="#">더보기</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="review_card">
+                  <div>
+                    <img src="./img/main/review_dog4.png" alt="리뷰이미지4" />
+                  </div>
+                  <div class="cardtxt_wrap">
+                    <div class="cardstar_p">
+                      <p>댕댕하우스 &#47; 호텔링</p>
+                      <p class="star">4.8 <span class="gray">(98)</span></p>
+                    </div>
+                    <p>작성자 mk&#42;&#42;&#42;</p>
+                    <p>
+                      아직 애기라 혼자 맡기기 불안했는데 댕댕하우스에서 정말...
+                      <a href="#">더보기</a>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -292,7 +475,7 @@
           <div class="select_btn">
             <div>
               <label for="hotel2">
-                <input type="radio" id="hotel2" name="service_btn" />
+                <input type="radio" id="hotel2" name="service_btn" checked />
                 <span>호텔링</span>
               </label>
             </div>
@@ -311,7 +494,7 @@
           </div>
           <div class="bestSlide_wrap">
             <!-- 슬라이드 아이콘 -->
-            <div class="right_slide">
+            <div class="left_slideicon">
               <div></div>
             </div>
             <div class="bestpic_wrap">
@@ -357,18 +540,95 @@
                   <a href="#"># 픽업가능</a>
                 </div>
               </div>
+              <div class="bestpic">
+                <div class="bestpic_box">
+                  <img src="./img/main/best1.png" alt="best1" />
+                </div>
+                <div class="best_p">
+                  <p>댕댕하우스&#47;호텔링</p>
+                  <p class="star">4.9 <span class="gray">(98)</span></p>
+                </div>
+                <div class="hashtag">
+                  <a href="#"># 깔끔해요</a>
+                  <a href="#"># 친절해요</a>
+                  <a href="#"># 픽업가능</a>
+                </div>
+              </div>
+              <div class="bestpic">
+                <div class="bestpic_box">
+                  <img src="./img/main/best2.png" alt="best2" />
+                </div>
+                <div class="best_p">
+                  <p>댕댕하우스&#47;호텔링</p>
+                  <p class="star">4.9 <span class="gray">(98)</span></p>
+                </div>
+                <div class="hashtag">
+                  <a href="#"># 깔끔해요</a>
+                  <a href="#"># 친절해요</a>
+                  <a href="#"># 픽업가능</a>
+                </div>
+              </div>
+              <div class="bestpic">
+                <div class="bestpic_box">
+                  <img src="./img/main/best3.png" alt="best3" />
+                </div>
+                <div class="best_p">
+                  <p>댕댕하우스&#47;호텔링</p>
+                  <p class="star">4.9 <span class="gray">(98)</span></p>
+                </div>
+                <div class="hashtag">
+                  <a href="#"># 깔끔해요</a>
+                  <a href="#"># 친절해요</a>
+                  <a href="#"># 픽업가능</a>
+                </div>
+              </div>
+              <div class="bestpic">
+                <div class="bestpic_box">
+                  <img src="./img/main/best1.png" alt="best1" />
+                </div>
+                <div class="best_p">
+                  <p>댕댕하우스&#47;호텔링</p>
+                  <p class="star">4.9 <span class="gray">(98)</span></p>
+                </div>
+                <div class="hashtag">
+                  <a href="#"># 깔끔해요</a>
+                  <a href="#"># 친절해요</a>
+                  <a href="#"># 픽업가능</a>
+                </div>
+              </div>
+              <div class="bestpic">
+                <div class="bestpic_box">
+                  <img src="./img/main/best2.png" alt="best2" />
+                </div>
+                <div class="best_p">
+                  <p>댕댕하우스&#47;호텔링</p>
+                  <p class="star">4.9 <span class="gray">(98)</span></p>
+                </div>
+                <div class="hashtag">
+                  <a href="#"># 깔끔해요</a>
+                  <a href="#"># 친절해요</a>
+                  <a href="#"># 픽업가능</a>
+                </div>
+              </div>
+              <div class="bestpic">
+                <div class="bestpic_box">
+                  <img src="./img/main/best3.png" alt="best3" />
+                </div>
+                <div class="best_p">
+                  <p>댕댕하우스&#47;호텔링</p>
+                  <p class="star">4.9 <span class="gray">(98)</span></p>
+                </div>
+                <div class="hashtag">
+                  <a href="#"># 깔끔해요</a>
+                  <a href="#"># 친절해요</a>
+                  <a href="#"># 픽업가능</a>
+                </div>
+              </div>
             </div>
             <!-- 슬라이드 아이콘 -->
-            <div class="left_slide">
+            <div class="right_slideicon">
               <div></div>
             </div>
-          </div>
-          <!-- 슬라이드 도트 -->
-          <!-- 누르면 검은색으로 바뀌고 width 늘어나도록 해야함 -->
-          <div class="slide_dot">
-            <div></div>
-            <div></div>
-            <div></div>
           </div>
           <button class="more_btn">더 보러가기</button>
         </div>
@@ -381,7 +641,7 @@
             <p>DOGI에서 사랑스러운 반려견을 자랑하세요!</p>
           </div>
           <div class="picSlide_wrap">
-            <div class="right_slide">
+            <div class="left_slideicon2">
               <div></div>
             </div>
             <div class="pic_wrap">
@@ -400,15 +660,25 @@
               <div class="photo_pic">
                 <img src="./img/main/photo5.png" alt="강아지5" />
               </div>
+              <div class="photo_pic">
+                <img src="./img/main/photo1.png" alt="강아지1" />
+              </div>
+              <div class="photo_pic">
+                <img src="./img/main/photo2.png" alt="강아지2" />
+              </div>
+              <div class="photo_pic">
+                <img src="./img/main/photo3.png" alt="강아지3" />
+              </div>
+              <div class="photo_pic">
+                <img src="./img/main/photo4.png" alt="강아지4" />
+              </div>
+              <div class="photo_pic">
+                <img src="./img/main/photo5.png" alt="강아지5" />
+              </div>
             </div>
-            <div class="left_slide">
+            <div class="right_slideicon2">
               <div></div>
             </div>
-          </div>
-          <div class="slide_dot">
-            <div></div>
-            <div></div>
-            <div></div>
           </div>
           <button class="more_btn">더 보러가기</button>
         </div>
@@ -431,4 +701,7 @@
       </div>
     </footer>
   </body>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/slider.js"></script>
 </html>

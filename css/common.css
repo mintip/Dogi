@@ -139,6 +139,7 @@ footer > div {
   margin-top: 15px;
 }
 footer > div > a {
+  font-size: 14px;
   margin: 0 10px;
   color: #aaaaaa;
 }
